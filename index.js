@@ -1,4 +1,4 @@
-
+import {the_day} from './method.js';
 today = new Date();
-nextDate = new Date("2024-01-01"); 
-console.log(Math.round((nextDate.getTime() - today.getTime()) / (24 * 60 * 60 * 1000)))
+console.log(the_day(today))
+
